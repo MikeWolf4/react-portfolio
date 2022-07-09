@@ -3,17 +3,16 @@ import  './index.scss';
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome, faUser, faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faM, faW  } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin,faGithub, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
-
+//<img src={LogoS} alt='logo'/>
+//<img className='sub-logo' src={LogoSubtitle} alt='slobodan'/>
 
 const Sidebar = () => (
 
     <div className="nav-bar">
         <Link className='logo' to='/'>
-            <img src={LogoS} alt='logo'/>
-            <img className='sub-logo' src={LogoSubtitle} alt='slobodan'/>
-            
+        <FontAwesomeIcon className='sub-logo' icon={faM} color="#8c00ff" />  
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">

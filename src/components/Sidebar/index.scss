@@ -16,9 +16,14 @@
       width: 24px;
       height: auto;
 
-      & sub-logo {
-        width: 50px;
-      }
+      
+    }
+    
+    .sub-logo {
+      width: 40px;
+      height: auto;
+      display: block;
+      margin: 8px auto;
     }
   }
   nav {
@@ -76,7 +81,7 @@
     }
     a.contact-link{
       &:after{
-        content: "ABOUT";
+        content: "CONTACT";
       }
     }
     a.active{
