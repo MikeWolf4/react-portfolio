@@ -16,6 +16,10 @@
    
     
     h1{
+        background-color: rgb(19, 19, 19, .6);
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 30px;
         color: rgb(255, 255, 255);
         font-size: 53px;
         margin: 0;
@@ -51,6 +55,7 @@
     }
 
 h2{
+    
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
@@ -64,7 +69,7 @@ h2{
 }
 
 .flat-button {
-    color: #8c00ff;
+    color: white;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
@@ -78,7 +83,7 @@ h2{
     white-space: nowrap;
 
     &:hover {
-        animation: fadeIn .2s .2s backwards;
+        animation: fadeIn .1s .1s backwards;
         color: white;
         border: 1px solid white;
         
