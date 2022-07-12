@@ -11,13 +11,13 @@
 }
 
 .tags {
-    color: #8c00ff;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 120px;
-    font-size: 18px;
-    font-family: 'La Belle Aurore';
+    // color: #8c00ff;
+    // opacity: 0.6;
+    // position: absolute;
+    // bottom: 0;
+    // left: 120px;
+    // font-size: 18px;
+    // font-family: 'La Belle Aurore';
 }
 
 .bottom-tag-html {
@@ -39,7 +39,8 @@
     animation-delay: 0s;
 }
 
-.about-page{
+.about-page,
+.contact-page {
     color: white;
     .text-zone{
         position: absolute;
@@ -54,7 +55,7 @@
         &:hover {
             h1{
                 &::before{
-                    content: "<h1>";
+                    //content: "<h1>";
                 font-family: "La Belle Aurore"; 
                 color: white;
                 font-size: 18px;
@@ -68,7 +69,7 @@
                    
                 }
                 &::after{
-                    content: '<h1/>';
+                    //content: '<h1/>';
                 font-family: "La Belle Aurore";
                 color: white;
                 font-size: 18px;
@@ -85,16 +86,18 @@
         }
 
         h1 {
+            
             font-size: 53px;
-            font-family: "Coolvetica";
+            font-family: sans-serif;
             color: white;
             font-weight: 400;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
             left: 10px;
+            letter-spacing: 2px;
             &::before{
-                content: "<h1>";
+                //content: "<h1>";
                 font-family: "La Belle Aurore"; 
                 color: #8c00ff;
                 font-size: 18px;
@@ -107,7 +110,7 @@
                
             }
             &::after{
-                content: '<h1/>';
+                //content: '<h1/>';
                 font-family: "La Belle Aurore";
                 color: #8c00ff;
                 font-size: 18px;

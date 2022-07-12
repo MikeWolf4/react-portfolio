@@ -16,8 +16,8 @@
    
     
     h1{
-        background-color: rgb(19, 19, 19, .6);
-        padding-top: 50px;
+        background-color: rgb(19, 19, 19, .7);
+        padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 30px;
         color: rgb(255, 255, 255);
@@ -27,7 +27,7 @@
         font-weight: 400;
        
         &::before{
-            content: "<h1>";
+            //content: "<h1>";
             font-family: "La Belle Aurore"; 
             color: #8c00ff;
             font-size: 18px;
@@ -38,7 +38,7 @@
            
         }
         &::after{
-            content: '<h1/>';
+            //content: '<h1/>';
             font-family: "La Belle Aurore";
             color: #8c00ff;
             font-size: 18px;
@@ -105,7 +105,7 @@ h2{
     &:hover {
         h1{
             &::before{
-                content: "<h1>";
+                //content: "<h1>";
                 font-family: "La Belle Aurore";
                 color: rgb(184, 184, 184);
                 font-size: 18px;
@@ -118,7 +118,7 @@ h2{
                
             }
             &::after{
-                content: '<h1/>';
+                //content: '<h1/>';
                 font-family: "La Belle Aurore";
                 color: rgb(184, 184, 184);
                 font-size: 18px;
